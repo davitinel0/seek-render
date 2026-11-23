@@ -1,0 +1,5 @@
+# Python tools (tools/, audio/, voice/, research/). ffmpeg and ffprobe must be on the PATH.
+numpy>=1.24
+soundfile>=0.12       # audio/mix.py, audio/cinematic_hits.py, voice/tighten_pauses.py
+faster-whisper>=1.0   # voice/align.py
+yt-dlp>=2025.1.1      # research/*
