@@ -1,0 +1,12 @@
+{
+  "name": "seek-render",
+  "version": "1.0.0",
+  "description": "Render seekable HTML canvas animations to MP4 with motion blur, using headless Chrome and WebCodecs H.264.",
+  "type": "module",
+  "main": "render.mjs",
+  "bin": { "seek-render": "render.mjs" },
+  "scripts": { "demo": "node render.mjs examples/demo.html demo.mp4 --fps 30 --sub 4" },
+  "keywords": ["video", "render", "canvas", "webcodecs", "playwright", "motion-blur", "mp4", "animation"],
+  "license": "MIT",
+  "dependencies": { "playwright": "^1.64.1" }
+}
